@@ -6,18 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "cdk": "./node_modules/.bin/tsc --target ES2018 --moduleResolution node --module commonjs cdk/index.ts && ./node_modules/.bin/cdk"
+    "lint": "next lint"
   },
   "dependencies": {
-    "@aws-cdk/aws-certificatemanager": "^1.203.0",
-    "@aws-cdk/aws-cloudfront": "^1.203.0",
-    "@aws-cdk/aws-route53": "^1.203.0",
-    "@aws-cdk/aws-route53-targets": "^1.203.0",
-    "@aws-cdk/aws-s3": "^1.203.0",
-    "@aws-cdk/aws-s3-deployment": "^1.203.0",
-    "@aws-cdk/core": "^1.203.0",
-    "aws-cdk": "^2.1004.0",
     "next": "15.2.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
